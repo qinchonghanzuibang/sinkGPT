@@ -1,0 +1,93 @@
+==========================================
+SLURM_JOB_ID        = 2002097
+SLURM_NODELIST      = SPG-1-1
+SLURM_NTASKS        = 1
+SLURM_CPUS_PER_TASK = 8
+This SLURM script is running on host SPG-1-1
+Working directory is /home/qinch/code/sink/nanoGPT
+==========================================
+Running comparison experiment: both Sink softmax and Baseline softmax
+从 data/wikitext/wikitext2.txt 加载数据，token 总数：2051910，词表大小：76616。
+number of parameters: 5.00M
+sink softmax applied
+sink softmax applied
+[Sink] Epoch   1: Loss = nan, Elapsed = 1.37s
+sink softmax applied
+sink softmax applied
+[Sink] Epoch   2: Loss = nan, Elapsed = 1.77s
+sink softmax applied
+sink softmax applied
+[Sink] Epoch   3: Loss = nan, Elapsed = 2.14s
+sink softmax applied
+sink softmax applied
+[Sink] Epoch   4: Loss = nan, Elapsed = 2.53s
+sink softmax applied
+sink softmax applied
+[Sink] Epoch   5: Loss = nan, Elapsed = 2.91s
+sink softmax applied
+sink softmax applied
+[Sink] Epoch   6: Loss = nan, Elapsed = 3.29s
+sink softmax applied
+sink softmax applied
+[Sink] Epoch   7: Loss = nan, Elapsed = 3.69s
+sink softmax applied
+sink softmax applied
+[Sink] Epoch   8: Loss = nan, Elapsed = 4.06s
+sink softmax applied
+sink softmax applied
+[Sink] Epoch   9: Loss = nan, Elapsed = 4.45s
+sink softmax applied
+sink softmax applied
+[Sink] Epoch  10: Loss = nan, Elapsed = 4.83s
+sink softmax applied
+sink softmax applied
+[Sink] Epoch  11: Loss = nan, Elapsed = 5.21s
+sink softmax applied
+sink softmax applied
+[Sink] Epoch  12: Loss = nan, Elapsed = 5.60s
+sink softmax applied
+sink softmax applied
+[Sink] Epoch  13: Loss = nan, Elapsed = 5.98s
+sink softmax applied
+sink softmax applied
+[Sink] Epoch  14: Loss = nan, Elapsed = 6.36s
+sink softmax applied
+sink softmax applied
+[Sink] Epoch  15: Loss = nan, Elapsed = 6.74s
+sink softmax applied
+sink softmax applied
+[Sink] Epoch  16: Loss = nan, Elapsed = 7.12s
+sink softmax applied
+sink softmax applied
+[Sink] Epoch  17: Loss = nan, Elapsed = 7.52s
+sink softmax applied
+sink softmax applied
+[Sink] Epoch  18: Loss = nan, Elapsed = 7.90s
+sink softmax applied
+sink softmax applied
+[Sink] Epoch  19: Loss = nan, Elapsed = 8.28s
+sink softmax applied
+sink softmax applied
+[Sink] Epoch  20: Loss = nan, Elapsed = 8.67s
+从 data/wikitext/wikitext2.txt 加载数据，token 总数：2051910，词表大小：76616。
+number of parameters: 5.00M
+[Baseline] Epoch   1: Loss = 11.2554, Elapsed = 0.38s
+[Baseline] Epoch   2: Loss = 11.2345, Elapsed = 0.76s
+[Baseline] Epoch   3: Loss = 11.2136, Elapsed = 1.15s
+[Baseline] Epoch   4: Loss = 11.1851, Elapsed = 1.53s
+[Baseline] Epoch   5: Loss = 11.1614, Elapsed = 1.92s
+[Baseline] Epoch   6: Loss = 11.1376, Elapsed = 2.30s
+[Baseline] Epoch   7: Loss = 11.1056, Elapsed = 2.69s
+[Baseline] Epoch   8: Loss = 11.0813, Elapsed = 3.07s
+[Baseline] Epoch   9: Loss = 11.0595, Elapsed = 3.45s
+[Baseline] Epoch  10: Loss = 11.0334, Elapsed = 3.84s
+[Baseline] Epoch  11: Loss = 11.0046, Elapsed = 4.22s
+[Baseline] Epoch  12: Loss = 10.9712, Elapsed = 4.61s
+[Baseline] Epoch  13: Loss = 10.9578, Elapsed = 4.99s
+[Baseline] Epoch  14: Loss = 10.9375, Elapsed = 5.37s
+[Baseline] Epoch  15: Loss = 10.8904, Elapsed = 5.76s
+[Baseline] Epoch  16: Loss = 10.8815, Elapsed = 6.15s
+[Baseline] Epoch  17: Loss = 10.8546, Elapsed = 6.53s
+[Baseline] Epoch  18: Loss = 10.8440, Elapsed = 6.91s
+[Baseline] Epoch  19: Loss = 10.8028, Elapsed = 7.29s
+[Baseline] Epoch  20: Loss = 10.7791, Elapsed = 7.68s

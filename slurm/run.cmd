@@ -18,4 +18,4 @@ source ~/miniconda3/etc/profile.d/conda.sh
 conda activate torch26-cuda124
 
 cd /home/qinch/code/sink/nanoGPT
-python compare.py --dataset data/wikitext/wikitext2.txt --compare --epochs 3
+python compare.py --dataset data/wikitext/wikitext2.txt --compare --epochs 20
