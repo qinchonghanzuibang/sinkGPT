@@ -18,8 +18,8 @@ from torch.nn import functional as F
 #######################
 # CUSTOM SINK SOFTMAX #
 #######################
-def sink_softmax(x, sink_value=0.5, sink_index=0):
-    print("sink softmax applied")
+def sink_softmax(x, sink_value=0.8, sink_index=0):
+    # print("sink softmax applied")
     # x 的 shape 为 [..., n]，其中 n 是最后一个维度的大小
     # 计算每行中非-inf（有效）的数目
     valid = ~torch.isinf(x)
