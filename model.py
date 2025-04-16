@@ -20,12 +20,30 @@ from torch.nn import functional as F
 #######################
 def sink_softmax(x, sink_value=0.5, sink_index=0):
     print("sink softmax applied")
+    # x 的 shape 为 [..., n]，其中 n 是最后一个维度的大小
+    # 计算每行中非-inf（有效）的数目
+    valid = ~torch.isinf(x)
+    valid_count = valid.sum(dim=-1, keepdim=True).float()
+    
+    # 对原始 logits 副本，将 sink_index 处置为 -inf，使其不参与 softmax 计算
     tmp = x.clone()
     tmp[..., sink_index] = -float("inf")
+    
+    # 对其它位置进行 softmax
     softmax_other = F.softmax(tmp, dim=-1)
+    # 正常情况下，分配剩余的概率 (1 - sink_value)
     out = softmax_other * (1 - sink_value)
+    # 给 sink_index 处赋上 sink_value
     out[..., sink_index] = sink_value
+
+    # 对于那些有效数目只有 1 的行（说明只有 sink 位置有效），直接返回 one-hot 分布
+    one_hot = torch.zeros_like(out)
+    one_hot[..., sink_index] = 1.0
+    mask = (valid_count == 1)
+    out = torch.where(mask, one_hot, out)
+    
     return out
+
 
 class LayerNorm(nn.Module):
     """ LayerNorm but with an optional bias. PyTorch doesn't support simply bias=False """
