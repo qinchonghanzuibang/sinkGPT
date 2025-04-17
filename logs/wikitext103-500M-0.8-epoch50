@@ -1,0 +1,113 @@
+==========================================
+SLURM_JOB_ID        = 2002235
+SLURM_NODELIST      = SPG-1-1
+SLURM_NTASKS        = 1
+SLURM_CPUS_PER_TASK = 8
+This SLURM script is running on host SPG-1-1
+Working directory is /home/qinch/code/sink/sinkGPT
+==========================================
+Running comparison experiment: both Sink softmax and Baseline softmax
+从 data/wikitext/wikitext103.txt 加载数据，token 总数：101425671，GPT-2 词表大小设置为：623941，block_size=512。
+number of parameters: 564.24M
+[Sink] Epoch   1: Loss = 13.4760, Elapsed = 36.45s
+[Sink] Epoch   2: Loss = 12.4430, Elapsed = 71.61s
+[Sink] Epoch   3: Loss = 11.9271, Elapsed = 108.38s
+[Sink] Epoch   4: Loss = 11.6232, Elapsed = 144.56s
+[Sink] Epoch   5: Loss = 11.4410, Elapsed = 180.18s
+[Sink] Epoch   6: Loss = 11.1955, Elapsed = 217.78s
+[Sink] Epoch   7: Loss = 10.9881, Elapsed = 253.99s
+[Sink] Epoch   8: Loss = 10.8080, Elapsed = 289.78s
+[Sink] Epoch   9: Loss = 10.4807, Elapsed = 325.53s
+[Sink] Epoch  10: Loss = 10.1826, Elapsed = 360.84s
+[Sink] Epoch  11: Loss = 10.0906, Elapsed = 396.77s
+[Sink] Epoch  12: Loss = 9.8099, Elapsed = 431.18s
+[Sink] Epoch  13: Loss = 9.5435, Elapsed = 467.05s
+[Sink] Epoch  14: Loss = 9.3694, Elapsed = 502.07s
+[Sink] Epoch  15: Loss = 9.0802, Elapsed = 537.86s
+[Sink] Epoch  16: Loss = 9.0491, Elapsed = 572.93s
+[Sink] Epoch  17: Loss = 8.8325, Elapsed = 608.24s
+[Sink] Epoch  18: Loss = 8.5957, Elapsed = 643.80s
+[Sink] Epoch  19: Loss = 8.3992, Elapsed = 678.48s
+[Sink] Epoch  20: Loss = 8.5113, Elapsed = 714.41s
+[Sink] Epoch  21: Loss = 8.1605, Elapsed = 748.91s
+[Sink] Epoch  22: Loss = 8.0479, Elapsed = 784.98s
+[Sink] Epoch  23: Loss = 8.0382, Elapsed = 819.78s
+[Sink] Epoch  24: Loss = 8.0570, Elapsed = 855.34s
+[Sink] Epoch  25: Loss = 8.0536, Elapsed = 890.68s
+[Sink] Epoch  26: Loss = 8.0060, Elapsed = 926.29s
+[Sink] Epoch  27: Loss = 7.9673, Elapsed = 963.31s
+[Sink] Epoch  28: Loss = 8.2005, Elapsed = 999.46s
+[Sink] Epoch  29: Loss = 7.7910, Elapsed = 1034.76s
+[Sink] Epoch  30: Loss = 7.9283, Elapsed = 1070.18s
+[Sink] Epoch  31: Loss = 7.8447, Elapsed = 1105.15s
+[Sink] Epoch  32: Loss = 8.1140, Elapsed = 1140.68s
+[Sink] Epoch  33: Loss = 7.8981, Elapsed = 1175.25s
+[Sink] Epoch  34: Loss = 7.9836, Elapsed = 1211.41s
+[Sink] Epoch  35: Loss = 7.9689, Elapsed = 1245.95s
+[Sink] Epoch  36: Loss = 8.2187, Elapsed = 1281.69s
+[Sink] Epoch  37: Loss = 7.8137, Elapsed = 1316.74s
+[Sink] Epoch  38: Loss = 7.8611, Elapsed = 1352.29s
+[Sink] Epoch  39: Loss = 7.9948, Elapsed = 1387.73s
+[Sink] Epoch  40: Loss = 7.7908, Elapsed = 1422.44s
+[Sink] Epoch  41: Loss = 7.9494, Elapsed = 1458.00s
+[Sink] Epoch  42: Loss = 7.9747, Elapsed = 1492.67s
+[Sink] Epoch  43: Loss = 7.9332, Elapsed = 1528.32s
+[Sink] Epoch  44: Loss = 8.1091, Elapsed = 1562.65s
+[Sink] Epoch  45: Loss = 8.0189, Elapsed = 1598.37s
+[Sink] Epoch  46: Loss = 7.8915, Elapsed = 1633.98s
+[Sink] Epoch  47: Loss = 7.9116, Elapsed = 1669.53s
+[Sink] Epoch  48: Loss = 7.7913, Elapsed = 1707.01s
+[Sink] Epoch  49: Loss = 7.8633, Elapsed = 1743.22s
+[Sink] Epoch  50: Loss = 7.9012, Elapsed = 1778.75s
+从 data/wikitext/wikitext103.txt 加载数据，token 总数：101425671，GPT-2 词表大小设置为：623941，block_size=512。
+number of parameters: 564.24M
+[Baseline] Epoch   1: Loss = 13.5393, Elapsed = 32.55s
+[Baseline] Epoch   2: Loss = 12.5929, Elapsed = 69.63s
+[Baseline] Epoch   3: Loss = 12.0588, Elapsed = 103.89s
+[Baseline] Epoch   4: Loss = 11.7802, Elapsed = 138.37s
+[Baseline] Epoch   5: Loss = 11.6203, Elapsed = 170.98s
+[Baseline] Epoch   6: Loss = 11.2516, Elapsed = 203.58s
+[Baseline] Epoch   7: Loss = 10.8897, Elapsed = 236.21s
+[Baseline] Epoch   8: Loss = 10.8182, Elapsed = 269.13s
+[Baseline] Epoch   9: Loss = 10.5782, Elapsed = 301.61s
+[Baseline] Epoch  10: Loss = 10.3332, Elapsed = 334.04s
+[Baseline] Epoch  11: Loss = 10.0548, Elapsed = 366.73s
+[Baseline] Epoch  12: Loss = 9.9331, Elapsed = 399.56s
+[Baseline] Epoch  13: Loss = 9.6009, Elapsed = 432.05s
+[Baseline] Epoch  14: Loss = 9.4053, Elapsed = 464.44s
+[Baseline] Epoch  15: Loss = 9.2324, Elapsed = 497.07s
+[Baseline] Epoch  16: Loss = 9.0786, Elapsed = 529.62s
+[Baseline] Epoch  17: Loss = 8.8072, Elapsed = 562.16s
+[Baseline] Epoch  18: Loss = 8.6502, Elapsed = 594.58s
+[Baseline] Epoch  19: Loss = 8.5820, Elapsed = 627.40s
+[Baseline] Epoch  20: Loss = 8.4638, Elapsed = 660.17s
+[Baseline] Epoch  21: Loss = 8.3256, Elapsed = 692.77s
+[Baseline] Epoch  22: Loss = 8.1424, Elapsed = 725.54s
+[Baseline] Epoch  23: Loss = 8.0580, Elapsed = 758.11s
+[Baseline] Epoch  24: Loss = 7.9821, Elapsed = 790.64s
+[Baseline] Epoch  25: Loss = 7.8577, Elapsed = 823.17s
+[Baseline] Epoch  26: Loss = 7.9411, Elapsed = 855.76s
+[Baseline] Epoch  27: Loss = 8.0041, Elapsed = 888.67s
+[Baseline] Epoch  28: Loss = 7.9541, Elapsed = 921.45s
+[Baseline] Epoch  29: Loss = 7.9627, Elapsed = 954.07s
+[Baseline] Epoch  30: Loss = 7.7808, Elapsed = 986.56s
+[Baseline] Epoch  31: Loss = 7.9885, Elapsed = 1019.29s
+[Baseline] Epoch  32: Loss = 7.8337, Elapsed = 1052.06s
+[Baseline] Epoch  33: Loss = 8.0332, Elapsed = 1084.61s
+[Baseline] Epoch  34: Loss = 8.1084, Elapsed = 1117.11s
+[Baseline] Epoch  35: Loss = 8.0671, Elapsed = 1149.97s
+[Baseline] Epoch  36: Loss = 7.8501, Elapsed = 1182.49s
+[Baseline] Epoch  37: Loss = 7.9815, Elapsed = 1215.20s
+[Baseline] Epoch  38: Loss = 7.7244, Elapsed = 1247.60s
+[Baseline] Epoch  39: Loss = 8.0768, Elapsed = 1280.17s
+[Baseline] Epoch  40: Loss = 8.1881, Elapsed = 1312.75s
+[Baseline] Epoch  41: Loss = 7.9922, Elapsed = 1345.38s
+[Baseline] Epoch  42: Loss = 20.4758, Elapsed = 1377.76s
+[Baseline] Epoch  43: Loss = 7.9140, Elapsed = 1410.43s
+[Baseline] Epoch  44: Loss = 7.8368, Elapsed = 1442.98s
+[Baseline] Epoch  45: Loss = 8.0955, Elapsed = 1475.53s
+[Baseline] Epoch  46: Loss = 7.8227, Elapsed = 1507.94s
+[Baseline] Epoch  47: Loss = 7.7297, Elapsed = 1540.84s
+[Baseline] Epoch  48: Loss = 7.8439, Elapsed = 1573.37s
+[Baseline] Epoch  49: Loss = 7.6922, Elapsed = 1605.85s
+[Baseline] Epoch  50: Loss = 7.7993, Elapsed = 1638.69s
